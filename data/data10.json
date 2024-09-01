@@ -1,0 +1,1012 @@
+[
+    {
+        "cepat_kode": "7299764",
+        "nama": "S-3 FILSAFAT ISLAM",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001212",
+        "nama": "S-3 FILSAFAT KEILAHIAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001213",
+        "nama": "S-3 FILSAFAT KONG HU CU",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7299609",
+        "nama": "S-3 FISIKA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940762",
+        "nama": "S-3 FISIKA MEDIS",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7299706",
+        "nama": "S-3 FISIKA TERAPAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940885",
+        "nama": "S-3 FISIOLOGI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001017",
+        "nama": "S-3 FISIOLOGI HEWAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7204330",
+        "nama": "S-3 FITOPATOLOGI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940953",
+        "nama": "S-3 GENETIKA MOLEKULER (MOLECULAR GENETIC)",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940982",
+        "nama": "S-3 GENETIKA SUMBER DAYA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940897",
+        "nama": "S-3 GENOMIC AND CT BIOINFORMATIC",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7272000",
+        "nama": "S-3 GEODESI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200171",
+        "nama": "S-3 GEOFISIKA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200172",
+        "nama": "S-3 GEOGRAFI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9941011",
+        "nama": "S-3 GEOGRAFI WILAYAH DAN TATA RUANG",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940896",
+        "nama": "S-3 GEOINFORMATIKA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7273000",
+        "nama": "S-3 GEOLOGI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940893",
+        "nama": "S-3 GEOMATIKA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200083",
+        "nama": "S-3 GEOSCIENCE AND NATURAL RESOURCES",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7275000",
+        "nama": "S-3 GEOSYSTEM AND BIOSYSTEM SCIENCES",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940996",
+        "nama": "S-3 GEOTEKNIK (GEOTECHNICAL ENGINEERING)",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001018",
+        "nama": "S-3 GLOBAL ENGINEERING",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940914",
+        "nama": "S-3 HEALTH DATA SCIENCE",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940918",
+        "nama": "S-3 HEALTH ECONOMICS",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940913",
+        "nama": "S-3 HEALTH INFORMATION TECHNOLOGY",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940902",
+        "nama": "S-3 HEALTH PROMOTION",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001214",
+        "nama": "S-3 HIDROGEOLOGI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001019",
+        "nama": "S-3 HIDROLOGI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940829",
+        "nama": "S-3 HIGH ENERGY ACCELERATOR SCIENCE",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7299776",
+        "nama": "S-3 HUBUNGAN INTERNASIONAL",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7209446",
+        "nama": "S-3 HUKUM",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7299592",
+        "nama": "S-3 HUKUM ISLAM",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940870",
+        "nama": "S-3 HUMAN AND COMPUTER INTERACTION",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200173",
+        "nama": "S-3 ILMU AKUNTANSI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001020",
+        "nama": "S-3 ILMU ATMOSFER DAN KEPLANETAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7299732",
+        "nama": "S-3 ILMU BAHAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200697",
+        "nama": "S-3 ILMU BIOMEDIS",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200239",
+        "nama": "S-3 ILMU FARMASI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7204200",
+        "nama": "S-3 ILMU GIZI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001021",
+        "nama": "S-3 ILMU INFORMASI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001022",
+        "nama": "S-3 ILMU INFORMATIKA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001215",
+        "nama": "S-3 ILMU KEBUMIAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200154",
+        "nama": "S-3 ILMU KEDOKTERAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7204100",
+        "nama": "S-3 ILMU KEDOKTERAN GIGI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7206160",
+        "nama": "S-3 ILMU KELAUTAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200175",
+        "nama": "S-3 ILMU KEOLAHRAGAAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001216",
+        "nama": "S-3 ILMU KOMPUTASI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200010",
+        "nama": "S-3 ILMU KOMPUTER",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7245200",
+        "nama": "S-3 ILMU KOMUNIKASI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200155",
+        "nama": "S-3 ILMU LINGKUNGAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7201300",
+        "nama": "S-3 ILMU MANAJEMEN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7299734",
+        "nama": "S-3 ILMU MATERIAL",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001023",
+        "nama": "S-3 ILMU MILITER",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7206030",
+        "nama": "S-3 ILMU PANGAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7209465",
+        "nama": "S-3 ILMU PEMERINTAHAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200012",
+        "nama": "S-3 ILMU PERIKANAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200151",
+        "nama": "S-3 ILMU PERTANIAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7245100",
+        "nama": "S-3 ILMU POLITIK",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7209356",
+        "nama": "S-3 ILMU SENI RUPA DAN DESAIN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7206020",
+        "nama": "S-3 ILMU TANAH",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001024",
+        "nama": "S-3 ILMU TANAMAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001217",
+        "nama": "S-3 ILMU VETERINER",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001218",
+        "nama": "S-3 IMUNOLOGI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940878",
+        "nama": "S-3 INFORMATION DISCOVERY",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940873",
+        "nama": "S-3 INFORMATION/CONTENT-BASED RETRIEVAL",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940832",
+        "nama": "S-3 INSTRUMENTASI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940883",
+        "nama": "S-3 INTELLIGENT INSTRUMENTATION",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940833",
+        "nama": "S-3 INTERFACE SYSTEM",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001025",
+        "nama": "S-3 KAJIAN ACEH",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001219",
+        "nama": "S-3 KAJIAN AMERIKA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001026",
+        "nama": "S-3 KAJIAN ARAB",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940780",
+        "nama": "S-3 KAJIAN ASEAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001027",
+        "nama": "S-3 KAJIAN ASIA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001220",
+        "nama": "S-3 KAJIAN BAHASA INGGRIS",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001028",
+        "nama": "S-3 KAJIAN BATAK",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001029",
+        "nama": "S-3 KAJIAN BELANDA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7210201",
+        "nama": "S-3 KAJIAN BUDAYA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200179",
+        "nama": "S-3 KAJIAN BUDAYA DAN MEDIA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001030",
+        "nama": "S-3 KAJIAN BUDAYA DAN TRADISI LISAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001031",
+        "nama": "S-3 KAJIAN BUGIS",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001032",
+        "nama": "S-3 KAJIAN GENDER",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001033",
+        "nama": "S-3 KAJIAN INDONESIA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001034",
+        "nama": "S-3 KAJIAN INGGRIS",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001035",
+        "nama": "S-3 KAJIAN JAWA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001036",
+        "nama": "S-3 KAJIAN JEPANG",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001037",
+        "nama": "S-3 KAJIAN JERMAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001038",
+        "nama": "S-3 KAJIAN KOREA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001039",
+        "nama": "S-3 KAJIAN MINANGKABAU",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001040",
+        "nama": "S-3 KAJIAN PERANCIS",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001041",
+        "nama": "S-3 KAJIAN PEREMPUAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001042",
+        "nama": "S-3 KAJIAN SASTRA DAN BUDAYA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001043",
+        "nama": "S-3 KAJIAN SEJARAH",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9000614",
+        "nama": "S-3 KAJIAN SENI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001044",
+        "nama": "S-3 KAJIAN SLAVIA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001045",
+        "nama": "S-3 KAJIAN SUNDA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200786",
+        "nama": "S-3 KAJIAN TIMUR TENGAH",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001046",
+        "nama": "S-3 KAJIAN TIONGKOK",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001047",
+        "nama": "S-3 KAJIAN WILAYAH EROPA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200353",
+        "nama": "S-3 KEBIJAKAN PUBLIK",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001221",
+        "nama": "S-3 KEDOKTERAN FORENSIK DAN MEDIKOLEGAL",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7204020",
+        "nama": "S-3 KEDOKTERAN HEWAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940781",
+        "nama": "S-3 KEDOKTERAN KLINIS",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940782",
+        "nama": "S-3 KEDOKTERAN OLAHRAGA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200073",
+        "nama": "S-3 KEHUTANAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200181",
+        "nama": "S-3 KEPENDUDUKAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7209431",
+        "nama": "S-3 KEPERAWATAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940915",
+        "nama": "S-3 KESEHATAN DAN PENYAKIT IKAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7299715",
+        "nama": "S-3 KESEHATAN LINGKUNGAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200182",
+        "nama": "S-3 KESEHATAN MASYARAKAT",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7209367",
+        "nama": "S-3 KESEHATAN MASYARAKAT VETERINER",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940955",
+        "nama": "S-3 KESEHATAN PERAIRAN (AQUATIC LIFE MEDICINE)",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7299695",
+        "nama": "S-3 KESEJAHTERAAN SOSIAL",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001048",
+        "nama": "S-3 KEUANGAN PUBLIK",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7290206",
+        "nama": "S-3 KIMIA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940949",
+        "nama": "S-3 KIMIA KELAUTAN (MARINE CHEMISTRY)",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940783",
+        "nama": "S-3 KIMIA TERAPAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9000624",
+        "nama": "S-3 KLIMATOLOGI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940868",
+        "nama": "S-3 KNOWLEDGE DATA ENGINEERING",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940876",
+        "nama": "S-3 KNOWLEDGE GRAPH",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940865",
+        "nama": "S-3 KOMPUTASI LINGUSTIK",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9000583",
+        "nama": "S-3 KOMUNIKASI PEMBANGUNAN ",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001049",
+        "nama": "S-3 KONSELING DAN PSIKOTERAPI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200042",
+        "nama": "S-3 KONSERVASI BIODIVERSITAS TROPIKA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200068",
+        "nama": "S-3 KRIMINOLOGI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7299683",
+        "nama": "S-3 LINGUISTIK",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001050",
+        "nama": "S-3 LINGUISTIK INDONESIA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940851",
+        "nama": "S-3 LINGUISTIK INTERDISPLINER (SOSIOLINGUISTIK, DST)",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200630",
+        "nama": "S-3 LINGUISTIK TERAPAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7209368",
+        "nama": "S-3 LINGUISTIK TERAPAN BAHASA INGGRIS",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001051",
+        "nama": "S-3 LOGIKA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001052",
+        "nama": "S-3 LOGISTIK",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200046",
+        "nama": "S-3 MANAJEMEN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001222",
+        "nama": "S-3 MANAJEMEN DAERAH ALIRAN SUNGAI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001053",
+        "nama": "S-3 MANAJEMEN DAN KEWIRAUSAHAAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9941025",
+        "nama": "S-3 MANAJEMEN DAN TEKNIK PENANGGULANGAN BENCANA ALAM",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940916",
+        "nama": "S-3 MANAJEMEN KESEHATAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9000636",
+        "nama": "S-3 MANAJEMEN PAJAK",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7210301",
+        "nama": "S-3 MANAJEMEN PENDIDIKAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001054",
+        "nama": "S-3 MANAJEMEN REKAYASA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001055",
+        "nama": "S-3 MANAJEMEN SUMBER DAYA ALAM",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001056",
+        "nama": "S-3 MANAJEMEN SUMBER DAYA HAYATI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940786",
+        "nama": "S-3 MANAJEMEN SUMBER DAYA MANUSIA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200491",
+        "nama": "S-3 MANAJEMEN SUMBER DAYA PERAIRAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940981",
+        "nama": "S-3 MANAJEMEN SUMBER DAYA PERIKANAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001057",
+        "nama": "S-3 MANAJEMEN TEKNOLOGI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9941023",
+        "nama": "S-3 MARINE CONVERGENCE DESIGN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9941022",
+        "nama": "S-3 MARINE SAFETY",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940932",
+        "nama": "S-3 MARINE TRACE METAL BIOGEOCHEMISTRY",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200118",
+        "nama": "S-3 MATEMATIKA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001058",
+        "nama": "S-3 MATEMATIKA TERAPAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200563",
+        "nama": "S-3 MEKATRONIKA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7290120",
+        "nama": "S-3 METALURGI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940872",
+        "nama": "S-3 METAVERSE, DIGITAL TWIN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7290201",
+        "nama": "S-3 METEOROLOGI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940954",
+        "nama": "S-3 MICRO DAN MAKROALGA (MICRO AND MACROALGAE)",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7209374",
+        "nama": "S-3 MIKROBIOLOGI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001059",
+        "nama": "S-3 MIKROBIOLOGI MEDIS",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940983",
+        "nama": "S-3 MODEL DAN SIMULASI EKOSISTEM PERAIRAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001060",
+        "nama": "S-3 MUSIK",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940866",
+        "nama": "S-3 NATURAL LANGUAGE PROCESSING",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940956",
+        "nama": "S-3 NUTRIGENOMIK (NUTRIGENOMIC)",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940787",
+        "nama": "S-3 NUTRISI TERNAK",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9941021",
+        "nama": "S-3 OCEAN RENEWABLE ENERGY",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940899",
+        "nama": "S-3 ONKOLOGI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940875",
+        "nama": "S-3 ONTOLOGY",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001061",
+        "nama": "S-3 OPTOMETRI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7299688",
+        "nama": "S-3 OSEANOGRAFI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940930",
+        "nama": "S-3 PALEOCEANOGRAPHY",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9941004",
+        "nama": "S-3 PALEOCLIMATOLOGY",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7209375",
+        "nama": "S-3 PARASITOLOGI DAN ENTOMOLOGI KESEHATAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7209376",
+        "nama": "S-3 PARIWISATA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940901",
+        "nama": "S-3 PATOLOGI KLINIS",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001223",
+        "nama": "S-3 PATOLOGI TUMBUHAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940860",
+        "nama": "S-3 PATTERN RECOGNITION",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001224",
+        "nama": "S-3 PEMASARAN, INOVASI DAN TEKNOLOGI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001062",
+        "nama": "S-3 PEMBANGUNAN SOSIAL",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7209427",
+        "nama": "S-3 PEMULIAAN TANAMAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001225",
+        "nama": "S-3 PENCIPTAAN SENI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7209476",
+        "nama": "S-3 PENDIDIKAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7299681",
+        "nama": "S-3 PENDIDIKAN AGAMA ISLAM",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200183",
+        "nama": "S-3 PENDIDIKAN ANAK USIA DINI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7299591",
+        "nama": "S-3 PENDIDIKAN BAHASA INDONESIA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7299680",
+        "nama": "S-3 PENDIDIKAN BAHASA INGGRIS",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200020",
+        "nama": "S-3 PENDIDIKAN BIOLOGI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7209378",
+        "nama": "S-3 PENDIDIKAN DASAR",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7299690",
+        "nama": "S-3 PENDIDIKAN EKONOMI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200021",
+        "nama": "S-3 PENDIDIKAN FISIKA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7209379",
+        "nama": "S-3 PENDIDIKAN GEOGRAFI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200027",
+        "nama": "S-3 PENDIDIKAN ILMU PENGETAHUAN ALAM",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200157",
+        "nama": "S-3 PENDIDIKAN ILMU PENGETAHUAN SOSIAL",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200494",
+        "nama": "S-3 PENDIDIKAN JASMANI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7299779",
+        "nama": "S-3 PENDIDIKAN KIMIA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9001238",
+        "nama": "S-3 PENDIDIKAN LINGKUNGAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200022",
+        "nama": "S-3 PENDIDIKAN MATEMATIKA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940795",
+        "nama": "S-3 PENDIDIKAN MUSIK",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940796",
+        "nama": "S-3 PENDIDIKAN NONFORMAL ATAU PENDIDIKAN MASYARAKAT",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7200655",
+        "nama": "S-3 PENDIDIKAN PANCASILA DAN KEWARGANEGARAAN",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "9940797",
+        "nama": "S-3 PENDIDIKAN SASTRA INDONESIA",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7209456",
+        "nama": "S-3 PENDIDIKAN SEJARAH",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7209384",
+        "nama": "S-3 PENDIDIKAN SENI",
+        "tingkat_pendidikan_id": "50"
+    },
+    {
+        "cepat_kode": "7299850",
+        "nama": "S-3 PENDIDIKAN UMUM DAN KARAKTER",
+        "tingkat_pendidikan_id": "50"
+    }
+]
