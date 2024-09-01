@@ -32,7 +32,7 @@ if 'download_button' not in st.session_state:
     st.session_state.download_button = None
 
 if 'data_all' not in st.session_state:
-    st.session_state.data_all = pd.read_csv('data_cpns_v2.csv', sep=';')
+    st.session_state.data_all = pd.read_csv('./data_cpns_v2.csv', sep=';')
 else:
     data_all = st.session_state.data_all  # If already initialized, use the session state value
 
