@@ -55,7 +55,7 @@ def verify_key():
 # Main content based on the selected option
 if option == "Home":
     st.title("Data CPNS 2024")
-
+    st.write("Made with ❤️ by [Raka Luthfi](https://www.linkedin.com/in/rakaluth/)")
     # Add custom CSS to hide the download button and index
     hide_table_row_index = """
                 <style>
