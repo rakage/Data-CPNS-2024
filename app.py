@@ -55,6 +55,8 @@ def verify_key():
 # Main content based on the selected option
 if option == "Home":
     st.title("Data CPNS 2024")
+
+    st.write("Data CPNS 2024 adalah data yang berisi informasi mengenai formasi CPNS 2024 yang tersedia di berbagai instansi pemerintah di Indonesia. Data ini berisi informasi mengenai program studi, jenis pengadaan, formasi, jabatan, jumlah formasi, gaji minimum, dan gaji maximum.")
     st.write("Made with ❤️ by [Raka Luthfi](https://www.linkedin.com/in/rakaluth/)")
     # Add custom CSS to hide the download button and index
     hide_table_row_index = """
@@ -89,7 +91,7 @@ if option == "Home":
             if 'formasi_id' in df.columns:
                 # Drop formasi_id column
                 df.drop(columns=['formasi_id'], inplace=True)
-                
+
             
             # Rename columns
             df.rename(columns={
@@ -478,4 +480,5 @@ elif option == "Insight":
 
 elif option == "Contact":
     st.title("Contact Page")
-    st.write("This is the Contact Page.")
+    
+    st.write("For more information, please contact me at [LinkedIn](https://www.linkedin.com/in/rakaluth/)")
