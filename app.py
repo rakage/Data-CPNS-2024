@@ -572,7 +572,7 @@ elif option == "Buy Keys":
             },
             "callbacks": {
             "notification_url": "https://4f2a-8-222-152-208.ngrok-free.app/notification_handler",
-            "finish": f"http://localhost:8501/?order_id={order_id}&secret_key={generate_keys}"
+            "finish": f"https://data-cpns-2024.streamlit.app/?order_id={order_id}&secret_key={generate_keys}"
         }
         }
         
