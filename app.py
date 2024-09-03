@@ -1,6 +1,35 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import requests
+import base64
+import time
+from midtransclient import Snap, CoreApi
+import secrets
+import string
+from dotenv import load_dotenv
+import os
+import psycopg2
+import urllib.parse
+
+
+import re
+load_dotenv()
+
+server = st.secrets['hostname']
+database = st.secrets['db']
+username = st.secrets['user']
+password = st.secrets['pass']
+def connect():
+    conn = psycopg2.connect(
+        host=server,
+        database=database,
+        user=username,
+        password=password
+    )
+    cursor = conn.cursor()
+    return cursor
+
 st.set_page_config(page_title="Data CPNS 2024", layout="wide")
 
 conn = st.connection("postgresql", type='sql')
@@ -12,6 +41,20 @@ def read_options(file_path):
         options = [line.strip() for line in file if line.strip()]
     return options
 
+def generate_alphanumeric_key(length=16):
+    alphabet = string.ascii_letters + string.digits
+    return ''.join(secrets.choice(alphabet) for _ in range(length))
+
+regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b'
+def check_email(email):
+ 
+    # pass the regular expression
+    # and the string into the fullmatch() method
+    if(re.fullmatch(regex, email)):
+        return True
+    else:
+        return False
+    
 # Path to the text file
 file_path = 'prodi.txt'
 
@@ -19,7 +62,7 @@ file_path = 'prodi.txt'
 options = read_options(file_path)
 options.insert(0, "All")
 # Sidebar widgets
-option = st.sidebar.selectbox("Choose an option", ["Home", "Insight", "Contact"])
+option = st.sidebar.selectbox("Choose an option", ["Home", "Insight", "Buy Keys"])
 
 # Initialize session state
 if 'page_number' not in st.session_state:
@@ -44,13 +87,24 @@ def verify_key():
     WHERE secret_key = '{key}'
     """
     df_key = conn.query(query)
-    print('df_key', df_key)
     if len(df_key) > 0:
         st.session_state.key_valid = True
         st.session_state.access_to = df_key['access_to'].iloc[0]  # Store the access_to value
     else:
         st.session_state.key_valid = False
         st.session_state.access_to = None
+
+def verify_key_2(key):
+    query = f"""
+    SELECT *
+    FROM key_cpns
+    WHERE secret_key = '{key}'
+    """
+    df_key = conn.query(query)
+    if len(df_key) > 0:
+        return True
+    else:
+        return False
 
 # Main content based on the selected option
 if option == "Home":
@@ -68,6 +122,11 @@ if option == "Home":
         """
     st.markdown(hide_table_row_index, unsafe_allow_html=True)
 
+    ## Get Parameter
+    if 'secret_key' in st.query_params:
+        check_key = verify_key_2(st.query_params["secret_key"])
+        if check_key:
+            st.success(f'Key: {st.query_params["secret_key"]}')
     dropdown1 = st.selectbox("Program Studi", options, key="prodi_dropdown")
     submit_button = st.button("Submit")
 
@@ -478,7 +537,113 @@ elif option == "Insight":
 
 
 
-elif option == "Contact":
-    st.title("Contact Page")
-    
-    st.write("For more information, please contact me at [LinkedIn](https://www.linkedin.com/in/rakaluth/)")
+elif option == "Buy Keys":
+    # Function to generate a current timestamp
+    def get_current_timestamp():
+        return str(int(time.time()))
+
+    order_id = "order-csb-" + get_current_timestamp()
+    generate_keys = generate_alphanumeric_key()
+    # Function to handle the Snap API request
+    def handle_main_request(prodi, nama, email, no_hp):
+        url = "https://app.midtrans.com/snap/v1/transactions"
+        headers = {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "Authorization": "Basic " + base64.b64encode(b"Mid-server-8_zZLFN7l1kW9VNfCFlepd7P").decode("utf-8")
+        }
+        data = {
+            "item_details": {
+                "name": f"CPNS 2024 Key: {prodi}",
+                "price": 1,
+                "quantity": 1
+            },
+            "transaction_details": {
+                "order_id": order_id,
+                "gross_amount": 1
+            },
+            "credit_card": {
+                "secure": True
+            },
+            "customer_details": {
+                "first_name": nama,
+                "email": email,
+                "phone": no_hp
+            },
+            "callbacks": {
+            "notification_url": "https://4f2a-8-222-152-208.ngrok-free.app/notification_handler",
+            "finish": f"http://localhost:8501/?order_id={order_id}&secret_key={generate_keys}"
+        }
+        }
+        
+        response = requests.post(url, json=data, headers=headers)
+        if response.status_code == 201:
+            ## Insert to DB
+            query = f"""
+                INSERT INTO key_cpns (secret_key, access_to, order_id, status, email)
+                VALUES ('{generate_keys}', '{prodi}', '{order_id}', 'Unpaid', '{email}')
+            """
+            
+            cursor = connect()
+            cursor.execute(query)
+            cursor.connection.commit()
+            cursor.close()
+
+            snap_response = response.json()
+            snap_token = snap_response.get("token")
+            redirect_url = snap_response.get("redirect_url")
+            return snap_token, redirect_url
+        else:
+            st.error(f"Failed to call API with error: {response.text}")
+            return None, None
+        
+    st.title("Buy Keys")
+
+    prodi = st.selectbox("Program Studi", options, key="prodi_dropdown")
+    nama = st.text_input("Nama", key="nama")
+    email = st.text_input("Email", key="email")
+    if email:
+        if check_email(email):
+            pass
+        else:
+            st.error("Email Invalid")
+
+    no_hp = st.text_input("No HP", key="no_hp")
+    nominal = 100000 if prodi == "All" else 50000
+
+    if st.button("Pay"):
+        snap_token, redirect_url = handle_main_request(prodi, nama, email, no_hp)
+        
+        if snap_token and redirect_url:
+            st.success("Invoice Created Successfully!")
+            st.write("### Purchase Summary")
+            st.write(f"- **Customer Name:** {nama}")
+            st.write(f"- **Total Purchase:** IDR {nominal}")
+            
+            st.write("### Proceed to Payment")
+            st.warning("Check your email for the secret key.")
+            st.write("Click the button below to proceed to the payment.")
+            
+            st.markdown(
+                f'<a href="{redirect_url}" target="_blank"><button>Proceed to Payment</button></a>',
+                unsafe_allow_html=True
+            )
+
+
+
+    # if st.button("Generate Snap Token"):
+    #     snap_token, redirect_url = handle_main_request()
+        
+    #     if snap_token and redirect_url:
+    #         st.success("Snap Token Retrieved Successfully!")
+    #         st.write("### Purchase Summary")
+    #         st.write("- **Customer Name:** Johny Kane")
+    #         st.write("- **Total Purchase:** IDR 10,000")
+            
+    #         st.write("### Proceed to Payment")
+    #         st.write("Click the button below to proceed to the payment.")
+            
+    #         st.markdown(
+    #             f'<a href="{redirect_url}" target="_blank"><button>Proceed to Payment</button></a>',
+    #             unsafe_allow_html=True
+    #     )
