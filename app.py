@@ -545,7 +545,7 @@ elif option == "Buy Keys":
     order_id = "order-csb-" + get_current_timestamp()
     generate_keys = generate_alphanumeric_key()
     # Function to handle the Snap API request
-    def handle_main_request(prodi, nama, email, no_hp):
+    def handle_main_request(prodi, nama, email, no_hp, nominal):
         url = "https://app.midtrans.com/snap/v1/transactions"
         headers = {
             "Content-Type": "application/json",
@@ -555,7 +555,7 @@ elif option == "Buy Keys":
         data = {
             "item_details": {
                 "name": f"CPNS 2024 Key: {prodi}",
-                "price": 1,
+                "price": nominal,
                 "quantity": 1
             },
             "transaction_details": {
@@ -612,7 +612,7 @@ elif option == "Buy Keys":
     nominal = 100000 if prodi == "All" else 50000
 
     if st.button("Pay"):
-        snap_token, redirect_url = handle_main_request(prodi, nama, email, no_hp)
+        snap_token, redirect_url = handle_main_request(prodi, nama, email, no_hp, nominal)
         
         if snap_token and redirect_url:
             st.success("Invoice Created Successfully!")
