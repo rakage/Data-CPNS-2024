@@ -560,7 +560,7 @@ elif option == "Buy Keys":
             },
             "transaction_details": {
                 "order_id": order_id,
-                "gross_amount": 1
+                "gross_amount": nominal
             },
             "credit_card": {
                 "secure": True
