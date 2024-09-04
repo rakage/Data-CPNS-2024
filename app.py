@@ -30,11 +30,11 @@ def connect():
     cursor = conn.cursor()
     return cursor
 
-st.set_page_config(page_title="Data CPNS 2024", layout="wide")
+st.set_page_config(page_title="Data Formasi CPNS 2024", layout="wide")
 
 conn = st.connection("postgresql", type='sql')
 # Set up the sidebar
-st.sidebar.title("Data CPNS 2024")
+st.sidebar.title("Data Formasi CPNS 2024")
 
 def read_options(file_path):
     with open(file_path, 'r') as file:
