@@ -621,7 +621,6 @@ elif option == "Buy Keys":
             st.write(f"- **Total Purchase:** IDR {nominal}")
             
             st.write("### Proceed to Payment")
-            st.warning("Check your email for the secret key.")
             st.write("Click the button below to proceed to the payment.")
             
             st.markdown(
