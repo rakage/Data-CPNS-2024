@@ -108,9 +108,9 @@ def verify_key_2(key):
 
 # Main content based on the selected option
 if option == "Home":
-    st.title("Data CPNS 2024")
+    st.title("Data Formasi CPNS 2024")
 
-    st.write("Data CPNS 2024 adalah data yang berisi informasi mengenai formasi CPNS 2024 yang tersedia di berbagai instansi pemerintah di Indonesia. Data ini berisi informasi mengenai program studi, jenis pengadaan, formasi, jabatan, jumlah formasi, gaji minimum, dan gaji maximum.")
+    st.write("Data Formasi CPNS 2024 adalah data yang berisi informasi mengenai formasi CPNS 2024 yang tersedia di berbagai instansi pemerintah di Indonesia. Data ini berisi informasi mengenai program studi, jenis pengadaan, formasi, jabatan, jumlah formasi, gaji minimum, dan gaji maximum.")
     st.write("Made with ❤️ by [Raka Luthfi](https://www.linkedin.com/in/rakaluth/)")
     # Add custom CSS to hide the download button and index
     hide_table_row_index = """
